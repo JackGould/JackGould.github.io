@@ -1,0 +1,22 @@
+#banner{
+    font-size: 75px;
+    color: blue;
+    background-color: cornsilk;
+
+
+}
+.table1{
+    border: darkgreen;
+    border-style: double;
+    border-color: darkseagreen;
+    background-color:floralwhite;
+    
+}
+#prodheader{
+    background: floralwhite;
+    font-size: 75px;
+    border: darkseagreen;
+    border-radius: 10px;
+    border-style: ridge;
+    
+}

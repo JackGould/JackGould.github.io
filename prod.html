@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List and Prices</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <span id="prodheader">Product List</span><br><br><br>
+    <h3>Please see our product list</h3><br>
+    <table class="table1">
+        <thead>
+        <tr>
+            <th scope="col">Product</th>
+            <th scope="col">Quantity</th>
+            <th scope="col">Price</th>
+            <th scope="col">Order Amount</th>
+        </thead>
+        <tbody>
+        </tr>
+        <tr>
+             <td>Plain</td>
+             <td>x2</td>
+             <td>£1.99</td>
+             <td>
+                    <form>
+                        <input type="number" step="1" name="prod1order">
+                    </form>
+            </td>
+            <td>
+                <form>
+                    <input type="submit" name="Place Order">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>Poppy Seed</td>
+            <td>x6</td>
+            <td>£4.99</td> 
+        
+        </tr>
+        <tr>
+            <td>Peanut Butter</td>
+            <td>2,4 or 6</td>
+            <td>£2.99, £4.99 or £6.99</td> 
+        
+        </tr>
+        </tbody>
+
+
+    </table>
+    <form action="">
+        <span>Dietary Requirements</span><br>
+        <input type="checkbox" id="vegan" name="Diet"><label for="vegan">Vegan</label>
+        <input type="checkbox" id="Gluten Free" name="Diet"><label for="Gluten Free">Gluten Free</label><br>
+        <span>Gift Product</span><br>
+        <input type="radio" name="gift" value="yes" id="yes"><label for="yes">Yes</label><br>
+        <input type="radio" name="gift" value="no" id="no"><label for="no">No</label><br><br>
+
+        <label for="delivery">What Delivery Option</label> 
+        <select name="delivery" id="delivery">
+            <option value="free">Free</option>
+            <option value="nextday">Next Day</option>
+            <option value="standard">Standard</option>
+
+        </select>
+
+    </form>
+
+
+
+</body>
+</html>
